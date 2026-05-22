@@ -30,7 +30,10 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <FaEnvelope className="shrink-0 text-accent mt-1" />
                 <div className="flex flex-col">
-                  <a href="mailto:dr.ashwini@arkajainuniversity.ac.in" className="hover:text-accent transition-colors">
+                  <a href="mailto:jhicon.ieee@arkajainuniversity.ac.in" className="hover:text-accent transition-colors">
+                    jhicon.ieee@arkajainuniversity.ac.in
+                  </a>
+                  <a href="mailto:dr.ashwini@arkajainuniversity.ac.in" className="hover:text-accent transition-colors mt-1">
                     dr.ashwini@arkajainuniversity.ac.in
                   </a>
                   <a href="mailto:dr.aditya@arkajainuniversity.ac.in" className="hover:text-accent transition-colors mt-1">

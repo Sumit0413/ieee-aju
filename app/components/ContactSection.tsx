@@ -119,6 +119,9 @@ export default function ContactSection() {
                 <div className="text-sm text-gray-600 min-w-0">
                   <p className="font-semibold text-foreground">Email</p>
                   <div className="flex flex-col gap-1 mt-1">
+                    <a href="mailto:jhicon.ieee@arkajainuniversity.ac.in" className="hover:text-accent transition-colors break-all">
+                      jhicon.ieee@arkajainuniversity.ac.in
+                    </a>
                     <a href="mailto:dr.ashwini@arkajainuniversity.ac.in" className="hover:text-accent transition-colors break-all">
                       dr.ashwini@arkajainuniversity.ac.in
                     </a>
