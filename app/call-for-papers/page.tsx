@@ -174,6 +174,11 @@ export default function CallForPapersPage() {
                 </div>
 
                 <div className="flex flex-wrap gap-4 mt-6">
+                  <div className="w-full mt-4 bg-accent/10 rounded-lg p-4 border border-accent/20 text-sm text-gray-700">
+                    <strong className="block text-foreground mb-1">CMT ACKNOWLEDGMENT:</strong>
+                    The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+                  </div>
+
                   <Link
                     href="/register"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent text-primary-dark font-bold text-sm hover:bg-accent-light transition-colors"

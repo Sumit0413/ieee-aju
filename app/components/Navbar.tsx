@@ -24,8 +24,9 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold text-white tracking-wide">
+          <Link href="/" className="flex items-center gap-3">
+            <img src="/jhicon-logo.webp" alt="JHICON-2027 logo" className="h-13 w-auto rounded" />
+            <span className="text-xl font-bold text-white tracking-wide hidden sm:inline">
               JHICON <span className="text-accent">2027</span>
             </span>
           </Link>

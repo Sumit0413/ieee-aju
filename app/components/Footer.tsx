@@ -70,6 +70,7 @@ export default function Footer() {
               by Arka Jain University in collaboration with IEEE.
             </p>
             <div className="flex items-center gap-4">
+              <img src="/jhicon-logo.webp" alt="JHICON logo" className="w-12 h-12 object-contain rounded bg-white/5 p-1" />
               <div className="w-12 h-12 bg-white/10 rounded flex items-center justify-center text-accent font-bold text-xs">
                 AJU
               </div>
