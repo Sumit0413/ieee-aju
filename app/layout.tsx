@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JHICON-2027 | Jharkhand International Conference on Electrical Engineering, Signal Processing & Advance Computing",
+  title: "1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development (JHICON-2027)",
   description:
-    "JHICON-2027 — 1st Jharkhand International Conference on Electrical Engineering, Signal Processing and Advance Computing Technologies for Sustainable Development. February 2–3, 2027 at Arka Jain University.",
+    "JHICON-2027 — 1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development. February 2–3, 2027 at Arka Jain University.",
 };
 
 export default function RootLayout({

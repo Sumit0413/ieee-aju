@@ -1,4 +1,4 @@
-# JHICON-2027 — Jharkhand International Conference on Electrical Engineering, Signal Processing & Advance Computing
+# JHICON-2027 — 1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development (JHICON-2027)
 
 Conference website for **JHICON-2027**, organized by **Arka Jain University** in collaboration with **IEEE**.
 

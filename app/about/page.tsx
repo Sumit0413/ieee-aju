@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About | JHICON-2027",
-  description: "Learn about the 1st Jharkhand International Conference on Electrical Engineering, Signal Processing and Advance Computing Technologies for Sustainable Development (JHICON-2027) and Arka Jain University.",
+  description: "Learn about the 1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development (JHICON-2027) and Arka Jain University.",
 };
 
 export default function AboutPage() {
@@ -28,8 +28,7 @@ export default function AboutPage() {
                 <SectionHeading title="About JHICON-2027" />
                 <div className="prose prose-sm sm:prose-base max-w-none text-gray-600 space-y-4 leading-relaxed">
                   <p>
-                    The <strong>1st Jharkhand International Conference on Electrical Engineering, Signal Processing
-                    and Advance Computing Technologies for Sustainable Development (JHICON-2027)</strong>{" "}
+                    The <strong>1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development (JHICON-2027)</strong>{" "}
                     is scheduled to be held on <strong>February 2–3, 2027</strong> at{" "}
                     <strong>Arka Jain University, Gamharia, Jharkhand, India</strong>. This
                     inaugural edition of JHICON marks a significant step toward advancing Electrical

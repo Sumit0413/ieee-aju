@@ -38,7 +38,7 @@ export default function WelcomeMessage() {
           <div className="prose prose-sm sm:prose-base max-w-none text-gray-600 space-y-4 leading-relaxed">
             <p>
               It is our great pleasure to welcome you to the <strong>1st Jharkhand International Conference on
-              Electrical Engineering, Signal Processing and Advance Computing Technologies for
+              Electrical Engineering, Signal Processing, and Advanced Computing Technologies for
               Sustainable Development (JHICON-2027)</strong>, scheduled to be held on{" "}
               <strong>February 2–3, 2027</strong> at the{" "}
               <strong>Arka Jain University, Gamharia, Jharkhand, India</strong>.

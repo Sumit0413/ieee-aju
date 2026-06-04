@@ -99,7 +99,7 @@ export default function CallForPapersPage() {
               <div className="mb-12">
                 <p className="text-gray-600 leading-relaxed">
                   JHICON-2027 invites original, unpublished research papers on all aspects
-                  of Electrical Engineering, Signal Processing, and Advance Computing
+                  of Electrical Engineering, Signal Processing, and Advanced Computing
                   Technologies for Sustainable Development. Authors are encouraged to submit
                   high-quality papers describing original and previously unpublished results
                   of theoretical, empirical, or experimental work in the areas listed below

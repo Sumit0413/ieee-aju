@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Register | JHICON-2027",
-  description: "Register for the 1st Jharkhand International Conference on Electrical Engineering, Signal Processing and Advance Computing Technologies for Sustainable Development (JHICON-2027).",
+  description: "Register for the 1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development (JHICON-2027).",
 };
 
 // TODO: Replace with actual Google Form URL before going live

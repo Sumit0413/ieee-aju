@@ -12,8 +12,7 @@ export default function AboutSnippet() {
         />
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-gray-600 leading-relaxed">
-            The 1st Jharkhand International Conference on Electrical Engineering, Signal Processing
-            and Advance Computing Technologies for Sustainable Development (JHICON-2027) is
+            The 1st Jharkhand International Conference on Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development (JHICON-2027) is
             a premier global platform that brings together researchers, academicians,
             industry professionals, and innovators to present cutting-edge research in
             electrical engineering, signal processing, and advanced computing. Organized

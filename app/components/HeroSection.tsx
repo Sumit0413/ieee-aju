@@ -27,11 +27,24 @@ export default function HeroSection() {
             <span className="text-white/70">2027</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
-            Jharkhand International Conference on
-            <br />
-            <span className="text-accent">Electrical Engineering, Signal Processing &amp; Advance Computing</span>
-          </h1>
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight">
+              <span className="block text-white">1st Jharkhand International Conference on</span>
+            </h1>
+
+            <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-accent leading-snug">
+              <span className="block">Electrical Engineering, Signal Processing,</span>
+              <span className="block">and Advanced Computing Technologies</span>
+            </h2>
+
+            <p className="mt-2 text-lg sm:text-xl text-accent/90 font-medium text-center">
+              for Sustainable Development
+            </p>
+
+            <p className="mt-3 text-sm sm:text-base text-white/80 text-center font-semibold">
+              
+            </p>
+          </div>
 
           {/* <p className="mt-4 text-lg sm:text-xl text-white/80 font-medium">
             JHICON-2027
