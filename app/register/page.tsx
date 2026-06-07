@@ -10,6 +10,43 @@ export const metadata: Metadata = {
 // TODO: Replace with actual Google Form URL before going live
 const GOOGLE_FORM_URL = "#";
 
+const feeRows = [
+  {
+    category: "Students",
+    india: ["INR 6000", "INR 5000", "INR 7000", "INR 6500"],
+    abroad: ["USD 150", "USD 100", "USD 200", "USD 150"],
+  },
+  {
+    category: "Academia",
+    india: ["INR 7000", "INR 6000", "INR 8000", "INR 7500"],
+    abroad: ["USD 250", "USD 200", "USD 300", "USD 250"],
+  },
+  {
+    category: "Industry",
+    india: ["INR 8000", "INR 7500", "INR 9000", "INR 10000"],
+    abroad: ["USD 300", "USD 250", "USD 350", "USD 300"],
+  },
+  {
+    category: "Attendee (Student/Academia/Industry)",
+    india: ["INR 2000", "INR 1000", "INR 2500", "INR 1500"],
+    abroad: ["USD 100", "USD 50", "USD 125", "USD 70"],
+  },
+] as const;
+
+const indiaColumns = [
+  "IEEE (Physical Mode)",
+  "IEEE (Virtual Mode)",
+  "Non-IEEE (Physical Mode)",
+  "Non-IEEE (Virtual Mode)",
+];
+
+const abroadColumns = [
+  "IEEE (Physical)",
+  "IEEE (Virtual Mode)",
+  "Non-IEEE (Physical Mode)",
+  "Non-IEEE (Virtual Mode)",
+];
+
 export default function RegisterPage() {
 
   return (
@@ -53,52 +90,57 @@ export default function RegisterPage() {
 
             {/* Registration Fee Table */}
             <div className="mt-12 text-left">
-              <h3 className="text-lg font-bold text-primary mb-4 text-center">Registration Fees</h3>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
+              <h3 className="text-lg font-bold text-primary mb-4 text-center">Registration Fees Details</h3>
+              <div className="overflow-x-auto rounded-2xl border border-gray-200">
+                <table className="w-full min-w-275 border-collapse text-sm">
                   <thead>
-                    <tr className="bg-primary/5 border-b border-gray-200">
-                      <th className="px-4 py-3 text-left font-semibold text-foreground">Category</th>
-                      <th className="px-4 py-3 text-center font-semibold text-foreground">Indian (INR)</th>
-                      <th className="px-4 py-3 text-center font-semibold text-foreground">International (USD)</th>
+                    <tr className="bg-primary/5">
+                      <th className="border border-gray-300 px-4 py-3 text-center text-base font-bold text-foreground" rowSpan={2}>
+                        Category
+                      </th>
+                      <th className="border border-gray-300 px-4 py-3 text-center text-base font-bold text-foreground" colSpan={4}>
+                        Participants from India
+                      </th>
+                      <th className="border border-gray-300 px-4 py-3 text-center text-base font-bold text-foreground" colSpan={4}>
+                        Participants from Abroad
+                      </th>
+                    </tr>
+                    <tr className="bg-white">
+                      {indiaColumns.map((column) => (
+                        <th key={column} className="border border-gray-300 px-4 py-3 text-center font-medium text-foreground whitespace-pre-line">
+                          {column}
+                        </th>
+                      ))}
+                      {abroadColumns.map((column) => (
+                        <th key={column} className="border border-gray-300 px-4 py-3 text-center font-medium text-foreground whitespace-pre-line">
+                          {column}
+                        </th>
+                      ))}
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-gray-100">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-foreground">IEEE Student Member</td>
-                      <td className="px-4 py-3 text-center text-gray-600">₹5,000</td>
-                      <td className="px-4 py-3 text-center text-gray-600">$150</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-foreground">IEEE Member</td>
-                      <td className="px-4 py-3 text-center text-gray-600">₹7,000</td>
-                      <td className="px-4 py-3 text-center text-gray-600">$200</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-foreground">Non-IEEE Student</td>
-                      <td className="px-4 py-3 text-center text-gray-600">₹6,000</td>
-                      <td className="px-4 py-3 text-center text-gray-600">$175</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-foreground">Non-IEEE Member</td>
-                      <td className="px-4 py-3 text-center text-gray-600">₹8,000</td>
-                      <td className="px-4 py-3 text-center text-gray-600">$250</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-foreground">Industry Professional</td>
-                      <td className="px-4 py-3 text-center text-gray-600">₹10,000</td>
-                      <td className="px-4 py-3 text-center text-gray-600">$300</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-foreground">Attendee (No Paper)</td>
-                      <td className="px-4 py-3 text-center text-gray-600">₹2,000</td>
-                      <td className="px-4 py-3 text-center text-gray-600">$75</td>
-                    </tr>
+                  <tbody>
+                    {feeRows.map((row) => (
+                      <tr key={row.category} className="hover:bg-gray-50">
+                        <td className="border border-gray-300 px-4 py-4 text-center text-foreground font-medium whitespace-pre-line">
+                          {row.category}
+                        </td>
+                        {row.india.map((value, index) => (
+                          <td key={`${row.category}-india-${index}`} className="border border-gray-300 px-4 py-4 text-center text-foreground whitespace-pre-line">
+                            {value}
+                          </td>
+                        ))}
+                        {row.abroad.map((value, index) => (
+                          <td key={`${row.category}-abroad-${index}`} className="border border-gray-300 px-4 py-4 text-center text-foreground whitespace-pre-line">
+                            {value}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
-              <p className="text-xs text-gray-400 mt-3 text-center">
-                * Fees are indicative and subject to change. Check the registration form for final amounts.
+              <p className="mt-4 text-center text-sm font-semibold text-foreground">
+                * With additional 18% GST on all Registration charges
               </p>
             </div>
           </div>
