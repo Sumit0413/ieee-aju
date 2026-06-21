@@ -1,9 +1,10 @@
 import SectionHeading from "./SectionHeading";
+import Image from "next/image";
 
 const sponsors = [
-  { name: "IEEE", tier: "Technical Co-Sponsor" },
-  { name: "IEEE Kolkata Section", tier: "Technical Co-Sponsor" },
-  { name: "Arka Jain University", tier: "Host" },
+  { name: "IEEE", tier: "Technical Co-Sponsor", logo: "/ieee.webp" },
+  { name: "IEEE Kolkata Section", tier: "Technical Co-Sponsor", logo: "/kolkata.webp" },
+  { name: "Arka Jain University", tier: "Host", logo: "/Arkajain.webp" },
 ];
 
 
@@ -22,9 +23,13 @@ export default function SponsorsStrip() {
               className="flex flex-col items-center gap-2"
             >
               <div className="w-24 h-24 rounded-lg bg-white border border-gray-200 shadow-sm flex items-center justify-center">
-                <span className="text-primary font-bold text-sm text-center px-2">
-                  {s.name}
-                </span>
+                <Image
+                  src={s.logo}
+                  alt={s.name}
+                  width={96}
+                  height={96}
+                  className="h-20 w-20 object-contain p-2"
+                />
               </div>
               <span className="text-xs text-gray-600">{s.tier}</span>
             </div>

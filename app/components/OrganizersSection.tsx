@@ -1,4 +1,5 @@
 import SectionHeading from "./SectionHeading";
+import Image from "next/image";
 
 const organizers = [
   {
@@ -7,6 +8,7 @@ const organizers = [
     abbr: "AJU",
     description: "Gamharia, Jharkhand, India",
     url: "https://arkajainuniversity.ac.in",
+    logo: "/Arkajain.webp",
   },
   {
     name: "IEEE",
@@ -14,6 +16,7 @@ const organizers = [
     abbr: "IEEE",
     description: "Institute of Electrical and Electronics Engineers",
     url: "https://www.ieee.org/",
+    logo: "/ieee.webp",
   },
   {
     name: "IEEE Kolkata Section",
@@ -21,6 +24,7 @@ const organizers = [
     abbr: "IEEE KS",
     description: "IEEE Kolkata Section Chapter",
     url: "https://ewh.ieee.org/r10/calcutta/",
+    logo: "/kolkata.webp",
   },
 ];
 
@@ -42,7 +46,13 @@ export default function OrganizersSection() {
               className="block bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-center hover:shadow-md transition-shadow hover:cursor-pointer"
             >
               <div className="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <span className="text-primary font-bold text-lg">{org.abbr}</span>
+                <Image
+                  src={org.logo}
+                  alt={org.name}
+                  width={80}
+                  height={80}
+                  className="h-20 w-20 rounded-full object-contain p-2"
+                />
               </div>
               <h3 className="font-bold text-foreground text-base">{org.name}</h3>
               <p className="text-sm text-accent font-medium mt-1">{org.role}</p>

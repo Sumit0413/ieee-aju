@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SectionHeading from "../components/SectionHeading";
 import type { Metadata } from "next";
 
@@ -11,8 +12,8 @@ const tiers = [
     name: "Technical Co-Sponsors",
     color: "bg-primary",
     sponsors: [
-      { name: "IEEE", abbr: "IEEE" },
-      { name: "IEEE Kolkata Section", abbr: "IEEE KS" },
+      { name: "IEEE", abbr: "IEEE", logo: "/ieee.webp" },
+      { name: "IEEE Kolkata Section", abbr: "IEEE KS", logo: "/kolkata.webp" },
     ],
   },
 ];
@@ -42,9 +43,13 @@ export default function SponsorsPage() {
                     className="group flex flex-col items-center gap-3"
                   >
                     <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-xl bg-white border-2 border-gray-200 shadow-sm flex items-center justify-center group-hover:border-accent group-hover:shadow-md transition-all">
-                      <span className="text-primary font-bold text-lg text-center px-2">
-                        {s.abbr}
-                      </span>
+                      <Image
+                        src={s.logo}
+                        alt={s.name}
+                        width={160}
+                        height={160}
+                        className="h-24 w-24 sm:h-28 sm:w-28 object-contain p-2"
+                      />
                     </div>
                     <span className="text-sm text-gray-600 font-medium">{s.name}</span>
                   </div>
