@@ -30,7 +30,7 @@ const organizers = [
 
 export default function OrganizersSection() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Organizers"
@@ -43,9 +43,9 @@ export default function OrganizersSection() {
               href={org.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-center hover:shadow-md transition-shadow hover:cursor-pointer"
+              className="block bg-white rounded-xl border border-white p-6 text-center shadow-none hover:shadow-md transition-shadow hover:cursor-pointer"
             >
-              <div className="w-36 h-36 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4 overflow-hidden">
+              <div className="w-36 h-36 mx-auto rounded-full bg-white flex items-center justify-center mb-4 overflow-hidden">
                 <Image
                   src={org.logo}
                   alt={org.name}

@@ -29,7 +29,8 @@ export default function HeroSection() {
 
           <div className="max-w-5xl mx-auto px-4">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight tracking-tight text-center">
-              <span className="block text-white">1st Jharkhand International Conference on</span>
+              <span className="block text-white">1st Jharkhand International Conference</span>
+              <span className="block text-white">on</span>
               <span className="block text-accent">Electrical Engineering, Signal Processing, and Advanced Computing Technologies for Sustainable Development</span>
             </h1>
 

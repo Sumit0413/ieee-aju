@@ -16,77 +16,102 @@ const organizingCommittee: CommitteeMember[] = [
   {
     name: "Prof. (Dr.) Easwaran S. Iyer",
     role: "Chief Patron",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "Vice-Chancellor, AJU, Jharkhand",
   },
   {
     name: "Dr. Amit Kumar Shrivastav",
     role: "Patron",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "Registrar, AJU, Jharkhand",
   },
   {
-    name: "Dr. Angad Tiwari",
+    name: "Prof. (Dr.) Angad Tiwari",
     role: "Patron",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "Pro-Vice Chancellor, AJU, Jharkhand",
   },
   {
-    name: "Dr. Jasbir Singh Dhanjal",
+    name: "Prof. (Dr.) S. S Razi",
     role: "Patron",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Arvind Kumar Pandey",
-    role: "Patron",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Ashwini Kumar",
-    role: "Patron",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "Chairperson, AJU, Jharkhand",
   },
   {
     name: "Mrs. Richa Garg",
     role: "Co-Patron",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "AJU, Jharkhand",
   },
   {
-    name: "Prof. Dr. Sanjeevikumar Padmanaban",
-    role: "Honorary Chair",
-    affiliation: "University of South-Eastern Norway",
+    name: "Dr. Jasbir Singh Dhanjal",
+    role: "Co-Patron",
+    affiliation: "AJU, Jharkhand",
   },
   {
-    name: "Prof. Ashok Kumar Pradhan",
-    role: "Honorary Chair",
-    affiliation: "IIT, Kharagpur",
+    name: "Dr. Arvind Kumar Pandey",
+    role: "Co-Patron",
+    affiliation: "AJU, Jharkhand",
   },
   {
-    name: "Prof. Sanjib Kumar Panda",
-    role: "Honorary Chair",
-    affiliation: "National University of Singapore, Singapore",
+    name: "Dr. Ashwini Kumar",
+    role: "Co-Patron",
+    affiliation: "AJU, Jharkhand",
   },
   {
-    name: "Dr. Traikul Islam(PhD)",
-    role: "Honorary Chair",
-    affiliation: "JMI (Central University), Department of Electrical Engineering, Faculty of Engg. and Technology",
-  },
-  {
-    name: "Prof. Dr. Bidyadhar Subudhi",
-    role: "Honorary Chair",
-    affiliation: "Director, NIT Warangal",
-  },
-  {
-    name: "Prof. Narayan Prasad Padhy",
+    name: "Prof. (Dr.) Narayana Prasad Padhy",
     role: "Honorary Chair",
     affiliation: "Director, MNIT, Jaipur",
   },
   {
-    name: "Prof. Brij Bhooshan Gupta",
+    name: "Prof. (Dr.) Bidyadhar Subudhi",
+    role: "Honorary Chair",
+    affiliation: "Director, NIT, Warangal",
+  },
+  {
+    name: "Prof. (Dr.) Ashok Kumar Pradhan",
+    role: "Honorary Chair",
+    affiliation: "IIT, Kharagpur",
+  },
+  {
+    name: "Prof. (Dr.) Aurobinda Routray",
+    role: "Honorary Chair",
+    affiliation: "IIT, Kharagpur",
+  },
+  {
+    name: "Prof. (Dr.) Bhim Singh",
+    role: "Honorary Chair",
+    affiliation: "ANRF National Science Chair, IIT, Delhi",
+  },
+  {
+    name: "Prof. (Dr.) Sanjeev Padmanaban",
+    role: "Honorary Chair",
+    affiliation: "USN, Norway",
+  },
+  {
+    name: "Prof. (Dr.) Chandan Chakraborty",
+    role: "Honorary Chair",
+    affiliation: "IIT, Kharagpur",
+  },
+  {
+    name: "Prof. (Dr.) Xiaodong Liang",
+    role: "Honorary Chair",
+    affiliation: "University of Saskatchewan, Canada",
+  },
+  {
+    name: "Prof. (Dr.) Brij Bhooshan Gupta",
     role: "Honorary Chair",
     affiliation: "Asia University, Taiwan",
   },
   {
-    name: "Prof. Bhim Singh",
+    name: "Prof. (Dr.) Sidhartha Panda",
     role: "Honorary Chair",
-    affiliation: "ANRF National Science Chair and Emeritus Professor, Indian Institute of Technology Delhi",
+    affiliation: "VSSUT, Burla",
+  },
+  {
+    name: "Prof. (Dr.) Ajit Kumar Barisal",
+    role: "Honorary Chair",
+    affiliation: "OUTR, Bhubaneswar",
+  },
+  {
+    name: "Prof. (Dr.) Chinmoy Panigrahi",
+    role: "Honorary Chair",
+    affiliation: "KIIT University, Bhubaneswar",
   },
   {
     name: "Dr. Aditya Prasad Padhy",
@@ -94,24 +119,9 @@ const organizingCommittee: CommitteeMember[] = [
     affiliation: "AJU, Jharkhand, India",
   },
   {
-    name: "Dr. Ashwini Kumar",
-    role: "Finance Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Premnath Suman",
-    role: "Finance Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Priyatosh Mahish",
+    name: "Dr. Deepak Reddy Pullaguram",
     role: "Technical Programme Committee Chair",
-    affiliation: "IIT Dhanbad",
-  },
-  {
-    name: "Dr. Sibarama Panigrahi",
-    role: "Technical Programme Committee Chair",
-    affiliation: "NIT, Rourkela",
+    affiliation: "IIT, Kharagpur",
   },
   {
     name: "Dr. Paresh Kumar Nayak",
@@ -124,14 +134,34 @@ const organizingCommittee: CommitteeMember[] = [
     affiliation: "IIT, Dhanbad",
   },
   {
+    name: "Dr. Rabindra Mohanty",
+    role: "Technical Programme Committee Chair",
+    affiliation: "IIT, Delhi",
+  },
+  {
+    name: "Dr. Priyatosh Mahish",
+    role: "Technical Programme Committee Chair",
+    affiliation: "IIT Dhanbad",
+  },
+  {
+    name: "Dr. Ajit Kumar",
+    role: "Technical Programme Committee Chair",
+    affiliation: "IIT, Dhanbad",
+  },
+  {
     name: "Dr. Vinay Pratap Singh",
     role: "Technical Programme Committee Chair",
     affiliation: "MNIT, Jaipur",
   },
   {
-    name: "Dr. Deepak Reddy Pullaguram",
+    name: "Dr. Swapnajit Pattnaik",
     role: "Technical Programme Committee Chair",
-    affiliation: "IIT, Kharagpur",
+    affiliation: "NIT, Raipur",
+  },
+  {
+    name: "Dr. Monalisa Biswal",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Raipur",
   },
   {
     name: "Dr. Varsha Singh",
@@ -139,24 +169,94 @@ const organizingCommittee: CommitteeMember[] = [
     affiliation: "NIT, Raipur",
   },
   {
+    name: "Dr. Veerpratap Meena",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Jamshedpur",
+  },
+  {
+    name: "Dr. Kumari Namrata",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Jamshedpur",
+  },
+  {
+    name: "Dr. Basudeba Behera",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Jamshedpur",
+  },
+  {
+    name: "Dr. Wesam Ahmed",
+    role: "Technical Programme Committee Chair",
+    affiliation: "Hurghada University, Egypt",
+  },
+  {
+    name: "Dr. Dilip Kumar Mishra",
+    role: "Technical Programme Committee Chair",
+    affiliation: "Flinders University, Australia",
+  },
+  {
+    name: "Dr. Trilocahan Panigrahi",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Goa",
+  },
+  {
+    name: "Dr. Deepak Kumar Lal",
+    role: "Technical Programme Committee Chair",
+    affiliation: "VSSUT, Burla",
+  },
+  {
+    name: "Dr. Suryaprakash",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Jamshedpur",
+  },
+  {
+    name: "Dr. Dinesh Kumar",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Jamshedpur",
+  },
+  {
+    name: "Dr. Kethavath Raghavendra Naik",
+    role: "Technical Programme Committee Chair",
+    affiliation: "NIT, Jamshedpur",
+  },
+  {
+    name: "Dr. Saumendra Sarangi",
+    role: "Technical Programme Committee Chair",
+    affiliation: "MNNIT, Prayagraj",
+  },
+  {
     name: "Dr. Tridibesh Nag",
     role: "Technical Programme Committee Chair",
-    affiliation: "IEEE Kolkata Section",
+    affiliation: "Vice Chair, IEEE Kolkata section",
   },
   {
     name: "Dr. Susanta Ray",
     role: "Technical Programme Committee Chair",
-    affiliation: "IEEE Kolkata Section",
+    affiliation: "Secretary, IEEE Kolkata section",
   },
   {
-    name: "Dr. Shailesh Kumar",
+    name: "Dr. Pavan kumar Meena",
     role: "Technical Programme Committee Chair",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "GUT, Poland",
   },
   {
-    name: "Dr. Premnath Suman",
+    name: "Dr. Krishna Kumar Gupta",
     role: "Technical Programme Committee Chair",
-    affiliation: "AJU, Jharkhand, India",
+    affiliation: "Thapar University, Punjab",
+  },
+  {
+    name: "Dr. Arghya Mitra",
+    role: "Technical Programme Committee Chair",
+    affiliation: "VNIT, Nagpur",
+  },
+  {
+    name: "Dr. M Suresh",
+    role: "Technical Programme Committee Chair",
+    affiliation: "VIT, Bhopal",
+  },
+  {
+    name: "Dr. Gesu Thakur",
+    role: "Technical Programme Committee Chair",
+    affiliation: "COER University, Roorkee",
   },
   {
     name: "Dr. Kasinath Jena",
@@ -164,83 +264,8 @@ const organizingCommittee: CommitteeMember[] = [
     affiliation: "AJU, Jharkhand, India",
   },
   {
-    name: "Dr. Rabindra Mohanty",
+    name: "Dr. Jonaki Mukharjee",
     role: "Technical Programme Committee Chair",
-    affiliation: "IIT Delhi",
-  },
-  {
-    name: "Dr. Dilip Kumar Mishra",
-    role: "Technical Programme Committee Chair",
-    affiliation: "Research Fellow, Flinders University, Adelaide, Australia",
-  },
-  {
-    name: "Dr. Amit Prakash Sen",
-    role: "Publication Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Md Irfan Ahmed",
-    role: "Publication Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Binod Kumar Choudhary",
-    role: "Publication Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Nidhi Dua",
-    role: "Publication Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Viranshu Kumar",
-    role: "Publication Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Susmita Kar",
-    role: "Women in Engineering (WIE) Chair",
-    affiliation: "NIT, Rourkela",
-  },
-  {
-    name: "Dr. Keerti Rai",
-    role: "Women in Engineering (WIE) Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Anupam Kumari",
-    role: "Women in Engineering (WIE) Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Prof. Taniya Ghosh",
-    role: "Women in Engineering (WIE) Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Prof. Jonaki Mukharjee",
-    role: "Hospitality and Logistics Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Prof. Sarita Srivastav",
-    role: "Hospitality and Logistics Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Prof. Manjur Ansari",
-    role: "Hospitality and Logistics Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Viranshu Kumar",
-    role: "Student Activity and Awards Chair",
-    affiliation: "AJU, Jharkhand, India",
-  },
-  {
-    name: "Dr. Md Irfan Ahmed",
-    role: "Student Activity and Awards Chair",
     affiliation: "AJU, Jharkhand, India",
   },
 ];
