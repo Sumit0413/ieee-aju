@@ -270,6 +270,64 @@ const organizingCommittee: CommitteeMember[] = [
   },
 ];
 
+const financeChairs: CommitteeMember[] = [
+  { name: "Dr. Ashwini Kumar", role: "Finance Chair", affiliation: "AJU, Jharkhand, India" },
+  { name: "Dr. Prem Nath Suman", role: "Finance Chair", affiliation: "AJU, Jharkhand, India" },
+];
+
+const industryChairs: CommitteeMember[] = [
+  { name: "Dr. Sachidananda Prasad", role: "Industry Chair", affiliation: "Sgurr Energy, Gujarat" },
+  { name: "Mr. Vinod Veeramachaneni", role: "Industry Chair", affiliation: "Think Mediator Inc., USA" },
+  { name: "Mr. Pradeep Kumar Srivastava", role: "Industry Chair", affiliation: "TATA Cummins, Jamshedpur" },
+];
+
+const publicationChairs: CommitteeMember[] = [
+  // No names provided in the request; placeholder left intentionally empty
+];
+
+const womenInEngineeringChairs: CommitteeMember[] = [
+  { name: "Dr. Sonia Riyat", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Shailesh Kumar", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Nidhi Dua", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Md Irfan Ahmed", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Amit Prakash Sen", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Binod Kumar Choudhary", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Susmita Kar", role: "WIE Chair", affiliation: "NIT, Rourkela" },
+  { name: "Dr. Keerti Rai", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Anupam Kumari", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Taniya Ghosh", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Sayantani De", role: "WIE Chair", affiliation: "AJU, Jharkhand" },
+];
+
+const hospitalityChairs: CommitteeMember[] = [
+  { name: "Dr. Viranshu Kumar", role: "Hospitality & Logistics Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Monika Singh", role: "Hospitality & Logistics Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Aditi Keshari", role: "Hospitality & Logistics Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Sarita Srivastav", role: "Hospitality & Logistics Chair", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Manjur Ansari", role: "Hospitality & Logistics Chair", affiliation: "AJU, Jharkhand" },
+];
+
+const localOrganizingCommittee: CommitteeMember[] = [
+  { name: "Dr. Shailesh Kumar Singh", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Anup Kumar", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Dilip Kumar", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Megha Sinha", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Ashish Ranjan", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Sweta Kumari Barnwal", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Souvik Singh Rathore", affiliation: "AJU, Jharkhand" },
+  { name: "Dr. Kumud Ranjan", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Syed Rashid Anwar", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Ranjeet Kumar", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Mamatha V", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Parthi Shit", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Nikita Kumari", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Ajay Bara", affiliation: "AJU, Jharkhand" },
+  { name: "Prof. Soumya Shree", affiliation: "AJU, Jharkhand" },
+  { name: "Mrs. Bilquis Bano", affiliation: "AJU, Jharkhand" },
+  { name: "Mr. Mihir Kumar Mahakud", affiliation: "AJU, Jharkhand" },
+  { name: "Mr. Md Naseem Ansar", affiliation: "AJU, Jharkhand" },
+];
+
 function CommitteeTable({ title, members, showRole = false }: { title: string; members: CommitteeMember[]; showRole?: boolean }) {
   return (
     <div className="mb-12">
@@ -312,6 +370,12 @@ export default function CommitteePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading title="Organizing Committee" />
           <CommitteeTable title="Organizing Committee" members={organizingCommittee} showRole />
+          <CommitteeTable title="Finance Chairs" members={financeChairs} showRole />
+          <CommitteeTable title="Industry Chairs" members={industryChairs} showRole />
+          <CommitteeTable title="Publication Chairs" members={publicationChairs} showRole />
+          <CommitteeTable title="Women in Engineering Chairs" members={womenInEngineeringChairs} showRole />
+          <CommitteeTable title="Hospitality & Logistics Chairs" members={hospitalityChairs} showRole />
+          <CommitteeTable title="Local Organizing Committee" members={localOrganizingCommittee} />
         </div>
       </section>
     </>
